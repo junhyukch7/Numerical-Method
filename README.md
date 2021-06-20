@@ -47,6 +47,12 @@ Useful matlab function to solve Numerical problem
 * simpsMulti.m : multiple integral using simpson rule
 
 2. Numerical Integration of Functions
-* romberg.m : integrate using Richardson extraploation.
+* romberg.m : integrate using Richardson extrapolation.
 * gausslege.m : integrate using Gauss-Legendre rule.
-* quadadapt.m : depend
+* quadadapt.m : depend on gradient, change the interval size
+
+3. Numerical Differentiation
+* rombdiff.m : diffrential using Richardson extrapolation.
+* diffeq,diffuneq.m : if interval size eqaul using diffeq, else diffuneq
+* diff_fin.m : finite diffrential based on High-Accuracy Differentiation Formulas.
+* partia_diff.m
