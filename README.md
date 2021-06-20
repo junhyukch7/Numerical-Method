@@ -55,5 +55,5 @@ Useful matlab function to solve Numerical problem
 * rombdiff.m : diffrential using Richardson extrapolation.
 * diffeq,diffuneq.m : if interval size eqaul using diffeq, else diffuneq
 * diff_fin.m : finite diffrential based on High-Accuracy Differentiation Formulas.
-* partia_diff.m
+* partial_diff.m : partial derivative
 ---
