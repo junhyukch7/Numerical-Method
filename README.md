@@ -1,6 +1,6 @@
 # Numerical-Method
 Useful matlab function to solve Numerical problem
-
+--
 ### Roots and Optimization
 1. Roots : Bracketing Methods
 * incsearch.m, bisect.m, false_position.m
@@ -10,7 +10,7 @@ Useful matlab function to solve Numerical problem
 
 3. Optimization
 * goldmin.m, goldmax.m, interpol2.m, interpol3.m 
-
+---
 ### Linear Systems
 1. Gauss Elimination
 * GaussNaive.m, GaussPivot.m, Tridang.m
@@ -23,7 +23,7 @@ Useful matlab function to solve Numerical problem
 * digon_domin.m(checking digonally dominant to check out convergence)
 * sor.m : succecive overrelaxation
 * jfreact2.m : making jacobian.
-
+---
 ### Curve Fitting
 1. Linear Regression
 * linreger.m, lin_quan.m(Quanification of error of linear sys)
@@ -37,7 +37,7 @@ Useful matlab function to solve Numerical problem
 
 4. Splines and Piecewise Interpolation
 * natspline.m
-
+---
 ### Integration and Differentiation
 1. Numerical Integration Formulas
 * trap,trap2,trapuneq.m : based on synthesis trapezoidal rule
@@ -56,3 +56,4 @@ Useful matlab function to solve Numerical problem
 * diffeq,diffuneq.m : if interval size eqaul using diffeq, else diffuneq
 * diff_fin.m : finite diffrential based on High-Accuracy Differentiation Formulas.
 * partia_diff.m
+---
